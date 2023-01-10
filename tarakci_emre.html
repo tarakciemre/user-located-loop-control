@@ -1,0 +1,25 @@
+<script>
+outer:
+for (let i = 0; i < 100; i++) {
+  console.log(i)
+  inner:
+  while (true) {
+      if (true) {
+          break inner;
+      }
+  }
+  if (i >= 3) {
+    break outer;
+  }
+}
+
+let j = 0;
+
+whileloop:
+while (j < 10) {
+  j++;
+  if (j % 2 == 0) continue whileloop;
+  console.log(j)
+}
+
+</script>
