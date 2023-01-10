@@ -237,7 +237,7 @@ j: 2
 ```
 
 Ruby simple in its implementation of the user located loop control mechanisms. It allows for conditional break statement with “break if” statement. That sets Ruby apart from the other languages discussed in this homework.
-Rust
+## Rust
 In rust, the break and continue statements are provided for loop control. Rust allows labeled loop control as well as unlabeled. if a break or continue statement is not followed by a loop label, rust automatically breaks or continues the innermost loop [12] [13]. 
 In the example below, labeled exit statement is demonstrated. Since the break statement is applied on the outer loop, the string “outer2.” is not logged to the console.
 ```
