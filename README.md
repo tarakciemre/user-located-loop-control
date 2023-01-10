@@ -1,5 +1,5 @@
-Author: Emre Tarakcı
-Date: 03.12.2022
+- Author: Emre Tarakcı
+- Date: 03.12.2022
 # User Located Loop Control Mechanisms
 ## Introduction
 User located loop control mechanisms allow the program to exit the code before the loop control statement. That is, inside the loop statements, the program can exit the loop by a statement or continue from the next iteration. This is a convenient feature because there are many cases where it might make sense to break out of a loop because the rest of the loop is not needed anymore, or in a case where we want to continue from the next statement, instead of enclosing everything in a loop block in curly braces to check for it, we can simply use a continue statement to bypass this iteration of the loop according to a condition. In this report, the implementation of user located loop control mechanisms will be examined in languages Dart, Javascript, Lua, PHP, Python, Ruby, and Rust.
