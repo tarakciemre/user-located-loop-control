@@ -289,17 +289,17 @@ In this report, the implementations of user located loop control mechanisms were
 In order to learn the behaviour of user located loop control mechanisms in these languages, I have read official documentations of the languages and looked at tutorials on the internet. When I got errors in my code, I have found the solutions using Google and Stack Overflow. I have created programs in these languages that would specifically test for the edge cases in the language. For example, since I knew that PHP was a language that had a different implementation using numbers, I have written code in which I could explore how it behaved in the absence of a number and different things that can be done with this numbered implementation. In other cases with labeled loops, I particularly used the example where the program would only output the odd values for testing the continue statement. That provided a universal way to test how continue works in each of these languages without thinking of new examples in each of them. I specifically tested if a plain break or continue statement only affects the closest loop that encloses the statement, and that was the case in all of these languages. During my experiments, I thought that maybe some of these languages would break out of the outer loop with a unlabeled break statement, but that was not the case. This project helped me quickly adapt to new syntax for new languages and learn new properties of these languages by reading the documentation, checking code examples and implementations.
 
 ## Bibliography
-[1] Break statement in Dart Programming. Tutorials Point. (n.d.). Retrieved December 3, 2022, from  https://www.tutorialspoint.com/dart_programming/dart_programming_break_statement.htm 
-[2] Dart programming - continue statement. Tutorials Point. (n.d.). Retrieved December 3, 2022, from https://www.tutorialspoint.com/dart_programming/dart_programming_continue_statement.htm 
-[3] Break - javascript: MDN. JavaScript | MDN. (n.d.). Retrieved December 3, 2022, from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/break 
-[4] Lua continue: How continue statement works in Lua: Examples. EDUCBA. (2021, May 11). Retrieved December 3, 2022, from https://www.educba.com/lua-continue/ 
-[5] Lua - break statement. Tutorials Point. (n.d.). Retrieved December 3, 2022, from https://www.tutorialspoint.com/lua/lua_break_statement.htm 
-[6] Break - Manual. php. (n.d.). Retrieved December 3, 2022, from https://www.php.net/manual/en/control-structures.break.php 
-[7] Continue - manual. php. (n.d.). Retrieved December 3, 2022, from https://www.php.net/manual/en/control-structures.continue.php 
-[8] Goto - Manual. php. (n.d.). Retrieved December 3, 2022, from https://www.php.net/manual/en/control-structures.goto.php 
-[9] 4. more control flow tools¶. 4. More Control Flow Tools - Python 3.11.0 documentation. (n.d.). Retrieved December 3, 2022, from https://docs.python.org/3/tutorial/controlflow.html 
-[10] [python-3000] announcing PEP 3136. (n.d.). Retrieved December 3, 2022, from https://mail.python.org/pipermail/python-3000/2007-July/008663.html 
-[11] Control expressions¶ ↑. control_expressions - Documentation for Ruby 2.4.0. (n.d.). Retrieved December 3, 2022, from https://docs.ruby-lang.org/en/2.4.0/syntax/control_expressions_rdoc.html 
-[12] Rust by example. Nesting and labels - Rust By Example. (n.d.). Retrieved December 3, 2022, from https://doc.rust-lang.org/rust-by-example/flow_control/loop/nested.html 
-[13] Keyword break. Rust. (n.d.). Retrieved December 3, 2022, from https://doc.rust-lang.org/std/keyword.break.html 
+- [1] Break statement in Dart Programming. Tutorials Point. (n.d.). Retrieved December 3, 2022, from  https://www.tutorialspoint.com/dart_programming/dart_programming_break_statement.htm 
+- [2] Dart programming - continue statement. Tutorials Point. (n.d.). Retrieved December 3, 2022, from https://www.tutorialspoint.com/dart_programming/dart_programming_continue_statement.htm 
+- [3] Break - javascript: MDN. JavaScript | MDN. (n.d.). Retrieved December 3, 2022, from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/break 
+- [4] Lua continue: How continue statement works in Lua: Examples. EDUCBA. (2021, May 11). Retrieved December 3, 2022, from https://www.educba.com/lua-continue/ 
+- [5] Lua - break statement. Tutorials Point. (n.d.). Retrieved December 3, 2022, from https://www.tutorialspoint.com/lua/lua_break_statement.htm 
+- [6] Break - Manual. php. (n.d.). Retrieved December 3, 2022, from https://www.php.net/manual/en/control-structures.break.php 
+- [7] Continue - manual. php. (n.d.). Retrieved December 3, 2022, from https://www.php.net/manual/en/control-structures.continue.php 
+- [8] Goto - Manual. php. (n.d.). Retrieved December 3, 2022, from https://www.php.net/manual/en/control-structures.goto.php 
+- [9] 4. more control flow tools¶. 4. More Control Flow Tools - Python 3.11.0 documentation. (n.d.). Retrieved December 3, 2022, from https://docs.python.org/3/tutorial/controlflow.html 
+- [10] [python-3000] announcing PEP 3136. (n.d.). Retrieved December 3, 2022, from https://mail.python.org/pipermail/python-3000/2007-July/008663.html 
+- [11] Control expressions¶ ↑. control_expressions - Documentation for Ruby 2.4.0. (n.d.). Retrieved December 3, 2022, from https://docs.ruby-lang.org/en/2.4.0/syntax/control_expressions_rdoc.html 
+- [12] Rust by example. Nesting and labels - Rust By Example. (n.d.). Retrieved December 3, 2022, from https://doc.rust-lang.org/rust-by-example/flow_control/loop/nested.html 
+- [13] Keyword break. Rust. (n.d.). Retrieved December 3, 2022, from https://doc.rust-lang.org/std/keyword.break.html 
 
